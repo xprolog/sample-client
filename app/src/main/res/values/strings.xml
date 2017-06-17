@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">X-Prolog Client</string>
+
+    <!-- Menu -->
+    <string name="run">RUN</string>
+
+    <!-- Run Dialog -->
+    <string name="run_configuration">Run Configuration</string>
+    <string name="no_config_to_run">No configuration to run</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
