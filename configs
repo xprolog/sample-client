@@ -1,21 +1,21 @@
 
 tool('1.01 (*) Find the last element of a list',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_01.pl',
-    [goal(my_last(X,[a,b,c,d])), category(online)]).
+    [goal(my_last(X,[a,b,c,d])), category(tutorial)]).
 
 tool('1.02 (*) Find the last but one element of a list',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_02.pl',
-    [goal(last_but_one(X,[a,b,c,d])), category(online)]).
+    [goal(last_but_one(X,[a,b,c,d])), category(tutorial)]).
     
-tool('1.03 (*) Find the K'th element of a list',
+tool('1.03 (*) Find the K''th element of a list',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_03.pl',
-    [goal(element_at(X,[a,b,c,d,e],3)), category(online)]).
+    [goal(element_at(X,[a,b,c,d,e],3)), category(tutorial)]).
     
 tool('1.04 (*) Find the number of elements of a list',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_04.pl',
-    [goal(my_length([a,b,c,d,e],N)), category(online)]).
+    [goal(my_length([a,b,c,d,e],N)), category(tutorial)]).
 
 tool('1.08 (**) Eliminate consecutive duplicates of list elements',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_08.pl',
-    [goal(compress([a,a,a,a,b,c,c,a,a,d,e,e,e,e],X)), category(online)]).
+    [goal(compress([a,a,a,a,b,c,c,a,a,d,e,e,e,e],X)), category(tutorial)]).
 
