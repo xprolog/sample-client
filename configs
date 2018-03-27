@@ -25,7 +25,7 @@ tool('1.06 (*) Find out whether a list is a palindrome',
 
 tool('1.07 (**) Flatten a nested list structure',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_07.pl',
-    [goal(main), category(tutorial)]).
+    [goal(my_flatten([a, [b, [c, d], e]], X)), category(tutorial)]).
 
 tool('1.08 (**) Eliminate consecutive duplicates of list elements',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_08.pl',
