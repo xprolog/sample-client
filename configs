@@ -15,6 +15,18 @@ tool('1.04 (*) Find the number of elements of a list',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_04.pl',
     [goal(my_length([a,b,c,d,e],N)), category(tutorial)]).
 
+tool('1.05 (*) Reverse a list',
+    'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_05.pl',
+    [goal(my_reverse([1,2,3,4],L)), category(tutorial)]).
+
+tool('1.06 (*) Find out whether a list is a palindrome',
+    'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_06.pl',
+    [goal(is_palindrome([x,a,m,a,x])), category(tutorial)]).
+
+tool('1.07 (**) Flatten a nested list structure',
+    'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_07.pl',
+    [goal(my_flatten([a, [b, [c, d], e]], X).), category(tutorial)]).
+
 tool('1.08 (**) Eliminate consecutive duplicates of list elements',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_08.pl',
     [goal(compress([a,a,a,a,b,c,c,a,a,d,e,e,e,e],X)), category(tutorial)]).
