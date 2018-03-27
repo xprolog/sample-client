@@ -1,12 +1,19 @@
 
-%tool('P01 Find the last element of a list','tutorial/ic/p01.pl', [goal(my_last(X,[a,b,c,d])), category(tutorial)]).
-%tool('P02 Find the last but one element of a list','tutorial/ic/p02.pl', [goal(last_but_one(X,[a,b,c,d])), category(tutorial)]).
-%tool('P03 Find the K''th element of a list','tutorial/ic/p03.pl', [goal(element_at(X,[a,b,c,d,e],3)), category(tutorial)]).
-%tool('P04 Find the number of elements of a list','tutorial/ic/p04.pl', [goal(my_length([a,b,c,d,e],N)), category(tutorial)]).
-%tool('2.1 Map Colorings', 'tutorial/cpp/2_1pl.txt', [goal((conflict(R1,R2,b), color(R1,C,b))), category(tutorial)]).
-%tool('2.2 Two Factorial Definitions', 'tutorial/cpp/2_2pl.txt', [goal(factorial(N,Result)), category(tutorial)]).
-%tool('2.3 Towers of Hanoi puzzle', 'tutorial/cpp/2_3pl.txt', [goal(move(N,left,right,center)), category(tutorial)]).
+tool('1.01 (*) Find the last element of a list',
+    'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_01.pl',
+    [goal(my_last(X,[a,b,c,d])), category(online)]).
 
+tool('1.02 (*) Find the last but one element of a list',
+    'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_02.pl',
+    [goal(last_but_one(X,[a,b,c,d])), category(online)]).
+    
+tool('1.03 (*) Find the K'th element of a list',
+    'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_03.pl',
+    [goal(element_at(X,[a,b,c,d,e],3)), category(online)]).
+    
+tool('1.04 (*) Find the number of elements of a list',
+    'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_04.pl',
+    [goal(my_length([a,b,c,d,e],N)), category(online)]).
 
 tool('1.08 (**) Eliminate consecutive duplicates of list elements',
     'https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1/p1_08.pl',
